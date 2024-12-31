@@ -3,7 +3,7 @@ policy:
       - id: [project]
         block-list: ['None', 'Other']
         label:
-          - name: 'kind: project/userscript/ccna'
+          - name: 'project/userscript/ccna'
             keys: ['Userscript/CCNA']
-          - name: 'kind: project/userscript/armyforge'
+          - name: 'project/userscript/armyforge'
             keys: ['Userscript/Armyforge']
