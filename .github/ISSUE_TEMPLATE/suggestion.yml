@@ -1,0 +1,38 @@
+name: Suggestion
+description: Create an issue for a potential enhancement or feature request.
+labels: suggestion
+
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: 'Project'
+      options:
+        - 'Userscript/CCNA'
+        - 'Userscript/Armyforge'
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 'Version'
+      placeholder: 'Enter version'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Description'
+      placeholder: 'Describe the desired enhancement or feature'
+    validations:
+      required: true
+
+  - type: file
+    id: mockup
+    attributes:
+      label: 'Mockup'
+      description: 'Upload a mockup or design image if available'
+    validations:
+      required: false
