@@ -8,10 +8,10 @@ body:
     attributes:
       label: 'Choose the project'
       options:
-        - 'project/userscript/ccna'
-        - 'project/minecraft-mod'
+        - 'Userscript/CCNA'
+        - 'Userscript/Armyforge'
     validations:
-      required: false
+      required: true
 
   - type: input
     id: version
@@ -19,15 +19,23 @@ body:
       label: 'Version of the project'
       placeholder: 'Enter version'
     validations:
-      required: false
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Description of the bug'
+      placeholder: 'Describe the Bug'
+    validations:
+      required: true
 
   - type: textarea
     id: reproduction
     attributes:
-      label: 'Description of the bug and steps to reproduce'
-      placeholder: 'Describe the steps to reproduce the bug'
+      label: 'Description how to reproduce the bug'
+      placeholder: '- [ ] step 1\n- [ ] step 2\n- [ ] step 3\n- [ ] X goes wrong'
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: screenshot
