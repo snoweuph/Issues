@@ -29,7 +29,7 @@ body:
     validations:
       required: true
 
-  - type: file
+  - type: textarea
     id: mockup
     attributes:
       label: 'Mockup'
