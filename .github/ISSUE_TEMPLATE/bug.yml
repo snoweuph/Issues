@@ -29,10 +29,10 @@ body:
     validations:
       required: false
 
-  - type: file
+  - type: markdown
     id: screenshot
     attributes:
-      label: 'Optional Screenshot'
+      label: 'Optional Screenshots'
       description: 'Upload a screenshot that helps describe the issue'
     validations:
       required: false
