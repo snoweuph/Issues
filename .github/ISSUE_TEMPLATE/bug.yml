@@ -1,6 +1,7 @@
 name: Bug
 description: Create an issue for a bug or error in the project.
 labels: bug
+title: [BUG] 
 
 body:
   - type: dropdown
