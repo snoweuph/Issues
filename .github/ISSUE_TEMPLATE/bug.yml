@@ -6,7 +6,7 @@ body:
   - type: dropdown
     id: project
     attributes:
-      label: 'Choose the project'
+      label: 'Project'
       options:
         - 'Userscript/CCNA'
         - 'Userscript/Armyforge'
@@ -16,7 +16,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: 'Version of the project'
+      label: 'Version '
       placeholder: 'Enter version'
     validations:
       required: true
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 'Description of the bug'
+      label: 'Description'
       placeholder: 'Describe the Bug'
     validations:
       required: true
@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: reproduction
     attributes:
-      label: 'Description how to reproduce the bug'
+      label: 'Reproduction'
       placeholder: |
         - [ ] step 1
         - [ ] step 2
@@ -44,7 +44,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: 'Optional Screenshots'
+      label: 'Screenshots'
       description: 'Upload a screenshot that helps describe the issue'
     validations:
       required: false
