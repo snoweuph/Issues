@@ -33,7 +33,7 @@ body:
     id: reproduction
     attributes:
       label: 'Description how to reproduce the bug'
-      placeholder: >
+      placeholder: |
         - [ ] step 1
         - [ ] step 2
         - [ ] step 3
