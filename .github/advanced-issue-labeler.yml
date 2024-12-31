@@ -1,0 +1,9 @@
+policy:
+  - section:
+      - id: [project]
+        block-list: ['None', 'Other']
+        label:
+          - name: 'kind: project/userscript/ccna'
+            keys: ['Userscript/CCNA']
+          - name: 'kind: project/userscript/armyforge'
+            keys: ['Userscript/Armyforge']
