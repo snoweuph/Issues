@@ -1,6 +1,7 @@
 name: Suggestion
 description: Create an issue for a potential enhancement or feature request.
 labels: suggestion
+title: '[Suggestion] '
 
 body:
   - type: dropdown
