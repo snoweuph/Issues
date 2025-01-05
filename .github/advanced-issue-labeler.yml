@@ -7,3 +7,5 @@ policy:
             keys: ['Userscript/CCNA']
           - name: 'project/userscript/armyforge'
             keys: ['Userscript/Armyforge']
+          - name: 'project/cider'
+            keys: ['Cider']

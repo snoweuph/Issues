@@ -11,6 +11,7 @@ body:
       options:
         - 'Userscript/CCNA'
         - 'Userscript/Armyforge'
+        - 'Cider'
     validations:
       required: true
 
